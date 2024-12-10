@@ -1,0 +1,26 @@
+{
+    "mainConfig": {
+        "netPort": 11000,
+        "virtualScenarioPort": 11001,
+        "moCapPort": 11002,
+        "poseMoCapChannel": 4,
+        "orientationMoCapChannel": 4,
+        "moCapBodyID": 1,
+        "scenarioPaths": []
+    },
+    "environment": "B105",
+    "pvasConfig": [],
+    "evasConfig": [],
+    "thevOICeConfig": [],
+    "moCapQoSConfiguration": {
+        "mode": 0,
+        "distribution": 0,
+        "jitterModelingJson": "",
+        "recording": {
+            "period": 20,
+            "delay": [
+                0
+            ]
+        }
+    }
+}

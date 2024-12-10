@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8223329415156069930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8223329415156069928}
+  - component: {fileID: 8223329415156069929}
+  m_Layer: 0
+  m_Name: KinematicsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8223329415156069928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223329415156069930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0091079995, z: -0.112534024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8223329415156069929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223329415156069930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88088c0b0a43cfa46b1808af2519ef0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  root: 0
+  articulations:
+  - bodyPart1: 0
+    pivot1: 0
+    bodyPart2: 1
+    pivot2: 0
+  - bodyPart1: 1
+    pivot1: 1
+    bodyPart2: 2
+    pivot2: 0
+  - bodyPart1: 1
+    pivot1: 2
+    bodyPart2: 3
+    pivot2: 0
+  - bodyPart1: 2
+    pivot1: 1
+    bodyPart2: 4
+    pivot2: 0
+  - bodyPart1: 3
+    pivot1: 1
+    bodyPart2: 5
+    pivot2: 0

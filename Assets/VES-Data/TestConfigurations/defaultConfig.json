@@ -1,0 +1,37 @@
+{
+    "mainConfig": {
+        "netPort": 11000,
+        "virtualScenarioPort": 11001,
+        "moCapPort": 11002,
+        "poseMoCapChannel": 4,
+        "orientationMoCapChannel": 4,
+        "moCapBodyID": 1,
+        "scenarioPaths": []
+    },
+    "environment": "IconRecognition",
+    "pvasConfig": [],
+    "evasConfig": [
+        {
+            "sensorAnchorID": 5,
+            "configuration": {
+                "fieldOfViewX": 5.0,
+                "fieldOfViewY": 5.0,
+                "detectionDistance": 6.0,
+                "period": 0.019999999552965165,
+                "channel": 13
+            }
+        }
+    ],
+    "thevOICeConfig": [],
+    "moCapQoSConfiguration": {
+        "mode": 0,
+        "distribution": 0,
+        "jitterModelingJson": "",
+        "recording": {
+            "period": 20,
+            "delay": [
+                0
+            ]
+        }
+    }
+}
